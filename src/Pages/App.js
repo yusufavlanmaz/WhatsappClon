@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text,View,TouchableHighlight,Image} from 'react-native';
+import {Alert,Text,View,TouchableHighlight,Image} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import styles from './App.style';
 
@@ -47,7 +47,11 @@ const App =()=>{
        </View>
        <Text style={styles.slm} >slm</Text>
        </View>
-       
+       <View style={styles.messages} >
+         <TouchableHighlight style={styles.messages_button} onPress={()=>{Alert.alert('Send Message')}} >
+         <Icon name='message'  size={23} color='white' />
+         </TouchableHighlight>
+       </View>
      </View>
    </View>
   

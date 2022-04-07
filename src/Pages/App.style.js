@@ -90,6 +90,22 @@ export default StyleSheet.create({
         height:100,
         width: 300,
     },
+    messages:{
+        alignSelf:'flex-end',
+        backgroundColor:'green',
+        marginBottom:50,
+        marginLeft:10,
+        width:50,
+        height:50,
+        borderRadius:50,
+        alignItems:'center',
+
+
+    },
+    messages_button:{
+        alignItems:'center',
+        paddingTop:15,
+    }
     
 
 
