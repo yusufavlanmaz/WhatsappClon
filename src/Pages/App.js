@@ -10,7 +10,7 @@ const App =()=>{
      
      <View style={styles.header} >
        <Text style={styles.whatsapp} >
-         WHATSAPPs
+         WHATSAPP
         </Text>
         <TouchableHighlight style={styles.search}>
         <Icon  name='search' size={30} color='white' />
